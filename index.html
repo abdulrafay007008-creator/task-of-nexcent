@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Femhack Tailwind</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#f5f7fa] font-sans">
+
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center px-6 md:px-20 py-5 bg-white">
+    
+    <!-- Logo -->
+    <img src="./images/Logo (1).png" alt="Nexcent Logo" class="h-6">
+
+    <!-- Menu (Desktop) -->
+    <ul class="hidden md:flex gap-6 text-gray-700">
+      <li class="hover:text-green-500 cursor-pointer">Home</li>
+      <li class="hover:text-green-500 cursor-pointer">Features</li>
+      <li class="hover:text-green-500 cursor-pointer">Community</li>
+      <li class="hover:text-green-500 cursor-pointer">Blog</li>
+      <li class="hover:text-green-500 cursor-pointer">Pricing</li>
+    </ul>
+
+    <!-- Button (Desktop) -->
+    <button class="hidden md:block bg-green-500 hover:bg-green-600 transition text-white px-4 py-2 rounded-md">
+      Register Now
+    </button>
+
+    <!-- Mobile Icon -->
+    <div class="md:hidden text-2xl cursor-pointer">☰</div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="flex flex-col-reverse md:flex-row justify-between items-center px-6 md:px-20 py-12 gap-10">
+    
+    <!-- Text -->
+    <div class="text-center md:text-left">
+      <h1 class="text-3xl md:text-4xl font-bold leading-tight">
+        Lessons and insights <br>
+        <span class="text-green-500">from 8 years</span>
+      </h1>
+
+      <p class="text-gray-500 mt-4 mb-6">
+        Where to grow your business as a photographer: site or social media?
+      </p>
+
+      <button class="bg-green-500 hover:bg-green-600 transition text-white px-5 py-2 rounded-md">
+        Register
+      </button>
+    </div>
+
+    <!-- Image -->
+    <img src="./images/Illustration.png" alt="Hero" class="w-[260px] md:w-[350px]">
+  </section>
+
+  <!-- Clients -->
+  <section class="text-center bg-white py-12 px-6 md:px-20">
+    <h2 class="text-2xl font-semibold">Our Clients</h2>
+    <p class="text-gray-500 mt-2">
+      We have been working with some Fortune 500+ clients
+    </p>
+
+    <div class="flex flex-wrap justify-center items-center gap-6 md:gap-10 mt-8">
+      <img src="./images/Logo (4).png" class="h-8 md:h-10">
+      <img src="./images/Logo (2).png" class="h-8 md:h-10">
+      <img src="./images/Logo (3).png" class="h-8 md:h-10">
+      <img src="./images/Logo (4).png" class="h-8 md:h-10">
+      <img src="./images/Logo (5).png" class="h-8 md:h-10">
+      <img src="./images/Logo (6).png" class="h-8 md:h-10">
+    </div>
+  </section>
+
+  <!-- Community Section -->
+  <section class="text-center px-6 md:px-20 py-16 bg-[#f5f7fa]">
+    <h2 class="text-2xl font-semibold">
+      Manage your entire community <br>
+      in a single system
+    </h2>
+
+    <div class="flex flex-col md:flex-row gap-6 mt-10 justify-center">
+
+      <div class="bg-white p-6 rounded-lg flex flex-col items-center w-full md:w-72">
+        <img src="./images/Icon (1).png" class="h-16 mb-4">
+        <h3 class="font-semibold text-lg mb-2">Membership Organisations</h3>
+        <p class="text-gray-500 text-sm text-center">
+          Our membership management software provides full automation.
+        </p>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg flex flex-col items-center w-full md:w-72">
+        <img src="./images/Icon (2).png" class="h-16 mb-4">
+        <h3 class="font-semibold text-lg mb-2">National Associations</h3>
+        <p class="text-gray-500 text-sm text-center">
+          Manage payments and membership renewals easily.
+        </p>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg flex flex-col items-center w-full md:w-72">
+        <img src="./images/Icon.png" class="h-16 mb-4">
+        <h3 class="font-semibold text-lg mb-2">Clubs And Groups</h3>
+        <p class="text-gray-500 text-sm text-center">
+          Simple and effective group management system.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Pixelgrade Section -->
+  <section class="flex flex-col md:flex-row items-center px-6 md:px-20 py-16 gap-10 bg-white">
+
+    <div class="md:w-1/2 flex justify-center">
+      <img src="./images/Frame 35.png" class="w-[260px] md:w-[380px]">
+    </div>
+
+    <div class="md:w-1/2 text-center md:text-left">
+      <h2 class="text-2xl md:text-3xl font-semibold text-gray-800">
+        The unseen of spending three <br class="hidden md:block">
+        years at Pixelgrade
+      </h2>
+
+      <p class="text-gray-500 mt-4 leading-relaxed">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum.
+        Sed accumsan quam vitae est varius fringilla.
+      </p>
+
+      <button class="mt-6 bg-green-500 hover:bg-green-600 transition text-white px-6 py-3 rounded-md">
+        Learn More
+      </button>
+    </div>
+  </section>
+
+</body>
+</html>
